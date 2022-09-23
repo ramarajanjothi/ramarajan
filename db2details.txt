@@ -1,0 +1,119 @@
+e3015563@maaux452:/home/e3015563#suexec su -
+Enter PASSCODE:
+root@maaux452:/root#bash
+root@maaux452:/root#su - db2inst1
+db2inst1@maaux452:/home/db2inst1#
+db2inst1@maaux452:/home/db2inst1#
+db2inst1@maaux452:/home/db2inst1#db2 list db directory
+
+ System Database Directory
+
+ Number of entries in the directory = 3
+
+Database 1 entry:
+
+ Database alias                       = JSPRSRVR
+ Database name                        = JSPRSRVR
+ Local database directory             = /home/db2inst1
+ Database release level               = f.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+Database 2 entry:
+
+ Database alias                       = SWTAPP
+ Database name                        = SWTAPP
+ Local database directory             = /home/db2inst1
+ Database release level               = f.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+Database 3 entry:
+
+ Database alias                       = SAMPLE
+ Database name                        = SAMPLE
+ Local database directory             = /home/db2inst1
+ Database release level               = f.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+db2inst1@maaux452:/home/db2inst1#
+db2inst1@maaux452:/home/db2inst1#
+db2inst1@maaux452:/home/db2inst1#exit
+root@maaux452:/root#su - db2inst2
+db2inst2@maaux452:/home/db2inst2#db2 list db directory
+
+ System Database Directory
+
+ Number of entries in the directory = 5
+
+Database 1 entry:
+
+ Database alias                       = TESTDB
+ Database name                        = TESTDB
+ Local database directory             = /home/db2inst2
+ Database release level               = 14.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+Database 2 entry:
+
+ Database alias                       = LBPSP18
+ Database name                        = LBPSP18
+ Local database directory             = /db2data/switch
+ Database release level               = 14.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+Database 3 entry:
+
+ Database alias                       = SWTCTXC1
+ Database name                        = SWTCTXC1
+ Local database directory             = /db2data/swtctxc1data
+ Database release level               = 14.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+Database 4 entry:
+
+ Database alias                       = SWITCH
+ Database name                        = SWITCH
+ Local database directory             = /db2data/switch
+ Database release level               = 14.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+Database 5 entry:
+
+ Database alias                       = LBPAPP
+ Database name                        = LBPAPP
+ Local database directory             = /db2data/switch
+ Database release level               = 14.00
+ Comment                              =
+ Directory entry type                 = Indirect
+ Catalog database partition number    = 0
+ Alternate server hostname            =
+ Alternate server port number         =
+
+db2inst2@maaux452:/home/db2inst2#
